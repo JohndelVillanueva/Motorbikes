@@ -13,7 +13,7 @@ class MotorbikeController extends Controller
 
         return view('motorbikes.index',[
             'bike' => $data,
-            'totalMotors' => $total
+            'totalMotorbike' => $total
         ]);
     }
 }
